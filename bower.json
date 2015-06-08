@@ -1,14 +1,14 @@
 {
-  "name": "New CHRISVOGT.me Views",
-  "version": "0.1.0",
-  "homepage": "https://github.com/chrisvogt/new-home-views",
+  "name": "CHRISVOGT.me Developer Blog",
+  "version": "0.7.0",
+  "homepage": "https://github.com/chrisvogt/chrisvogt.github.io",
   "authors": [
     "Chris Vogt <mail@chrisvogt.me>"
   ],
   "description": "New views for the chrisvogt.me website/blog.",
   "main": "index.html",
   "keywords": [
-    "views"
+    "views", "developer blog", "personal website"
   ],
   "license": "MIT",
   "ignore": [
