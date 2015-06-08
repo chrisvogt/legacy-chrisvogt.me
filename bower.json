@@ -1,0 +1,28 @@
+{
+  "name": "New CHRISVOGT.me Views",
+  "version": "0.1.0",
+  "homepage": "https://github.com/chrisvogt/new-home-views",
+  "authors": [
+    "Chris Vogt <mail@chrisvogt.me>"
+  ],
+  "description": "New views for the chrisvogt.me website/blog.",
+  "main": "index.html",
+  "keywords": [
+    "views"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.3.0",
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0",
+    "Hover": "~2.0.2"
+  }
+}
