@@ -23,6 +23,7 @@
     "animate.css": "~3.3.0",
     "bootstrap": "~3.3.4",
     "font-awesome": "~4.3.0",
-    "Hover": "~2.0.2"
+    "Hover": "~2.0.2",
+    "octicons": "~2.4.1"
   }
 }

@@ -4,10 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!--
+        brought to you by...
+   ██████╗ ██╗██╗   ██╗ ██████╗
+  ██╔════╝███║██║   ██║██╔═████╗
+  ██║     ╚██║██║   ██║██║██╔██║
+  ██║      ██║╚██╗ ██╔╝████╔╝██║
+  ╚██████╗ ██║ ╚████╔╝ ╚██████╔╝
+   ╚═════╝ ╚═╝  ╚═══╝   ╚═════╝
+       chrisvogt.me | @c1v0
+     -->
+    <meta name="description" content="Personal blog of Phoenix web developer Chris Vogt. Open-source projects in PHP, CakePHP, JavaScript, Jekyll, and more.">
+    <meta name="author" content="CJ Vogt">
     <link rel="icon" href="favicon.ico">
 
     <title>CHRISVOGT.me</title>
@@ -19,7 +27,9 @@
     <!-- Custom styles -->
     <link href="css/ordo.css" rel="stylesheet" title="primary">
     <!-- Google Webfonts -->
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Dancing+Script|Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic%7cDancing+Script%7cRoboto+Condensed" rel="stylesheet">
+    <!-- Octicons -->
+    <link href="components/octicons/octicons/octicons.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -32,12 +42,13 @@
     <div id="header">
       <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img class="img img-circle" src="http://www.gravatar.com/avatar/3e0cd2da42672a768e98a2b0c0617b72?s=48px" width="48" height="48" alt="Avatar">
-              chrisvogt<span>.me</span>
-            </a>
-          </div>
+          <a class="navbar-brand" href="#">
+            <img class="img img-circle" src="http://www.gravatar.com/avatar/3e0cd2da42672a768e98a2b0c0617b72?s=48px" width="48" height="48" alt="Avatar">
+            chrisvogt<span>.me</span>
+          </a>
+          <a id="ctlStats" class="btn btn-default btn-xs" data-toggle="collapse" href="#masthead" aria-expanded="true" aria-controls="masthead">
+            <i class="fa fa-area-chart"></i>
+          </a>
           <div class="social-container">
             <ul class="social">
               <li>
@@ -76,7 +87,7 @@
       </nav>
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="masthead">
+      <div id="masthead" class="collapse in">
         <div class="container-fluid">
           <div class="col-md-2">
             <div class="well well-stats hvr-grow-shadow">
@@ -116,12 +127,11 @@
         </div>
       </div><!-- /.masthead -->
     </div><!-- /#header -->
-
     <div id="viewpane" class="container-fluid">
       <div id="sidebar" class="col-xs-12 col-md-4">
         <aside>
           <div class="thumb">
-            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76">
+            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76" alt="Thumbnail">
           </div>
           <h4>WakaTime stats-sharing app</h4>
           <i class="fa fa-calendar"></i> May 28, 2015
@@ -129,7 +139,7 @@
         </aside>
         <aside class="alt">
           <div class="thumb">
-            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76">
+            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76" alt="Thumbnail">
           </div>
           <h4>Projects Directory</h4>
           <i class="fa fa-calendar"></i> May 28, 2015
@@ -137,7 +147,7 @@
         </aside>
         <aside>
           <div class="thumb">
-            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76">
+            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76" alt="Thumbnail">
           </div>
           <h4>WordPress.org Support Forum Extension Kit</h4>
           <i class="fa fa-calendar"></i> May 18, 2015
@@ -145,7 +155,7 @@
         </aside>
         <aside class="alt">
           <div class="thumb">
-            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76">
+            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76" alt="Thumbnail">
           </div>
           <h4>HTML5 Primality Game</h4>
           <i class="fa fa-calendar"></i> April 25, 2015
@@ -153,7 +163,7 @@
         </aside>
         <aside>
           <div class="thumb">
-            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76">
+            <img src="http://placehold.it/76x76" class="img img-rounded" height="76" width="76" alt="Thumbnail">
           </div>
           <h4>Marble Interface Tumblr Theme</h4>
           <i class="fa fa-calendar"></i> April 23, 2015
@@ -181,9 +191,9 @@
       </div>
       <div id="content" class="col-xs-12 col-md-6">
         <h1>Who I Am</h1>
-        <p><img src="photos/cjvogt-dimetrodon.jpg" class="img img-thumbnail pull-right"> In the real world I inhabit Phoenix, Arizona, USA. Between five and ten weekday evenings I can typically be spotted near N33° 29.0744′, W112° 5.3194′.</p>
-        <p>When I’m not there you can find me online, often lurking in an IRC channel, reading or writing documentation, forking projects and pushing commits to Github , or digging through the depths of information scattered throughout the Web. If all else fails, look for me at the dog park reading an analog book near a golden and a catahoula.</p>
-        <p><img src="photos/chris-underwater.jpg" class="img img-thumbnail pull-left">This site does not exist for me to market myself, my services, or my products. It is here to record my thoughts, projects, and ideas while also functioning as a reference to my content input and output. I will attempt to sell you nothing and you won’t find me throwing around my résumé  like a two-bit business card. (Catch what I did there?)</p>
+        <p><img src="photos/cjvogt-dimetrodon.jpg" class="img img-thumbnail pull-right" alt="CJ Vogt and Dimetrodon at ASU"> In the real world I inhabit Phoenix, Arizona, USA. Between five and ten weekday evenings I can typically be spotted near N33° 29.0744′, W112° 5.3194′.</p>
+        <p>When I’m not there you can find me online, often lurking in an IRC channel, reading or writing documentation, forking projects and pushing commits to Github <a href="https://github.com/chrisvogt"><i class="fa fa-external-link"></i></a>, or digging through the depths of information scattered throughout the Web. If all else fails, look for me at the dog park reading an analog book near a golden and a catahoula.</p>
+        <p><img src="photos/chris-underwater.jpg" class="img img-thumbnail pull-left" alt="CJ Vogt Underwater at the Aquarium of the Bay">This site does not exist for me to market myself, my services, or my products. It is here to record my thoughts, projects, and ideas while also functioning as a reference to my content input and output. I will attempt to sell you nothing and you won’t find me throwing around my résumé <a href="http://resume.chrisvogt.me"><i class="fa fa-external-link"></i></a> like a two-bit business card. (Catch what I did there?)</p>
         <p>Should you find an invalid or outdated statement on my site, consider taking the time to refute it and set me straight. Let’s work together to keep the internet free of garbage and noise.</p>
       </div><!-- /#content -->
     </div> <!-- /.container-fluid -->
@@ -191,15 +201,17 @@
     <footer class="footer">
       <div class="container-fluid">
         <div class="col-xs-4">
-          <p class="text-muted">Place sticky footer content here.</p>
+          <p><span class="octicon octicon-pencil"></span> with <span class="octicon octicon-heart"></span> by <i class="fa fa-twitter"></i> <a href="https://twitter.com/c1v0" title="C1V0 on Twitter" class="hvr-grow-rotate">@c1v0</a>.</p>
         </div>
         <div class="col-xs-4 text-center">
-          <a href="http://en.wikipedia.org/wiki/Hacker_ethic#The_hacker_ethics" title="Hacker Ethic on Wikipedia">
-            <img src="img/glider.svg" width="16" height="16" alt="Glider emblem">
-          </a>
+          <p>
+            <a href="http://en.wikipedia.org/wiki/Hacker_ethic#The_hacker_ethics" title="Hacker Ethic on Wikipedia" class="hvr-grow-rotate">
+              <img src="img/glider.svg" width="16" height="16" alt="Glider emblem">
+            </a>
+          </p>
         </div>
         <div class="col-xs-4 text-right">
-          <p class="text-muted">Place sticky footer content here.</p>
+          <p>View the <i class="fa fa-git"></i> source on <a href="https://github.com/chrisvogt/chrisvogt.github.io" title="View on GitHub" class="hvr-grow-rotate"><span class="octicon octicon-logo-github"></span></a>.</p>
         </div>
       </div>
     </footer>
