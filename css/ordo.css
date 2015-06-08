@@ -11,26 +11,37 @@
  * Viewpane
  */
 html {
-  height: 100%;
+  min-height: 100%;
+  position: relative;
 }
 body {
-  background: #efefef;
+  background: url('../img/v-glow.png') 42% repeat-y #efefef;
   font-family: 'Droid Serif', serif;
-  height: 100%;
+  min-height: 100%;
 }
 #viewpane {
-  height: 100%;
+  min-height: 100%;
   padding-left: 0;
 }
+
 /**
  * Layout
  */
 #content {
-  background: url('../img/v-glow.png') repeat-y;
-  height: 100%;
+
 }
-#header {
-  background: url('../img/bg-delaunay.png') top center #cecece;
+#header, footer.footer {
+  background: url('../img/bg-delaunay.png') top center;
+}
+
+footer.footer {
+  color: #cecece;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.143em;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /**
@@ -128,11 +139,57 @@ body {
  }
 
 
- #content h1 {
-   font-family: 'Dancing Script', cursive;
-   font-size: 3em;
- }
-
+#content h1 {
+ font-family: 'Dancing Script', cursive;
+ font-size: 3em;
+}
 #content p {
   font-size: 1.143em;
 }
+#glider {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+}
+
+/**
+ * Hover.css
+ */
+
+ /* Grow Shadow */
+ .hvr-grow-shadow {
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: box-shadow, transform;
+   transition-property: box-shadow, transform;
+ }
+ .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ /* Shrink */
+ .hvr-shrink {
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: transform;
+   transition-property: transform;
+ }
+ .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+   -webkit-transform: scale(0.9);
+   transform: scale(0.9);
+ }
