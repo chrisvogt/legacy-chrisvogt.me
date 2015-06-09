@@ -20,6 +20,7 @@ body {
   min-height: 100%;
 }
 #viewpane {
+  background: url('../img/flap-shadow.png') no-repeat top center;
   min-height: 100%;
   padding-left: 0;
 }
@@ -81,6 +82,8 @@ body {
  color: #efefef;
  font-family: 'Roboto Condensed', sans-serif;
  padding-top: 14px;
+ padding-bottom: 8px;
+ border-bottom: 1px solid #cecece;
 
  background: -moz-linear-gradient(45deg, rgba(10,0,63,1) 0%, rgba(255,123,172,0.1) 100%); /* FF3.6+ */
  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(10,0,63,1)), color-stop(100%,rgba(255,123,172,0.1))); /* Chrome,Safari4+ */
