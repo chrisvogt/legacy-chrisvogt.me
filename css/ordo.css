@@ -90,22 +90,29 @@ body {
  background: linear-gradient(45deg, rgba(10,0,63,1) 0%,rgba(255,123,172,0.1) 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a003f', endColorstr='#1aff7bac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-#masthead .well {
- background: rgba(255, 255, 255, .5);
+#masthead .btn-stats {
+ background: rgba(255, 255, 255, .4);
+ margin-bottom: 8px;
+ color: #efefef;
 }
-.well-stats {
- cursor: default;
-}
-.well-stats p {
+.btn-stats p {
  padding: 8px;
 }
-.well-stats span {
+.btn-stats span {
  font-size: 1.571em;
  color: #fff;
+ display: block;
 }
 #ctlStats {
   display: inline;
   line-height: 60px;
+}
+
+@media (max-width: 768px) {
+  .btn-stats span {
+    font-size: 1.125em;
+    display: inline;
+  }
 }
 
 /**

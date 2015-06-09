@@ -4,7 +4,7 @@ author: "Chris Vogt"
 description: "Personal blog of Phoenix web developer CJ Vogt. Projects in PHP, CakePHP, Jekyll, Wordpress, and more."
 banner: "https://cdn.rawgit.com/chrisvogt/chrisvogt.github.io/develop/img/og-banner.jpg"
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: /:categories/:title
 analytics: "UA-33558417-1"
 exclude:
