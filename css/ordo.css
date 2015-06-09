@@ -15,7 +15,7 @@ html {
   position: relative;
 }
 body {
-  background: url('../img/v-glow.png') 42% repeat-y #efefef;
+  background: url('../img/v-glow.png') 4% repeat-y #efefef;
   font-family: 'Droid Serif', serif;
   min-height: 100%;
 }
@@ -122,8 +122,8 @@ body {
  * sidebar
  */
 #sidebar {
- background-color: #f8f8f8;
- border: 1px dotted #cecece;
+ background: rgba(248, 248, 248, .8);
+ border-left: 1px solid #cecece;
  min-height: 100%;
  padding-left: 0;
  padding-right: 0;
@@ -252,4 +252,11 @@ body {
 .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
   -webkit-transform: scale(1.1) rotate(4deg);
   transform: scale(1.1) rotate(4deg);
+}
+
+/**
+ * jPages
+ */
+#sidebar {
+  overflow: hidden;
 }

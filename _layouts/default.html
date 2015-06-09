@@ -1,10 +1,10 @@
     {% include header.html %}
     <div id="viewpane" class="container-fluid">
+      <div id="content" class="col-xs-12 col-md-8">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </div><!-- /#content -->
       {% include sidebar.html %}
-        <div id="content" class="col-xs-12 col-md-6">
-          <h1>{{ page.title }}</h1>
-          {{ content }}
-        </div><!-- /#content -->
     </div> <!-- /.container-fluid -->
     {% include footer.html %}
 
@@ -13,7 +13,23 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/components/bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/components/jpages/js/jPages.min.js"></script>
+    <script>
+    $(function(){
+      $("div.jHolder").jPages({
+          containerID : "articles",
+          animation   : "flipInX",
+          pause       : 8500,
+          clickStop   : true,
+          scrollBrowse: true,
+          perPage     : 5,
+          previous    : ".previous a",
+          next        : ".next a",
+          links       : "blank",
+          first       : false,
+          last        : false
+      });
+    });
+    </script>
   </body>
 </html>
