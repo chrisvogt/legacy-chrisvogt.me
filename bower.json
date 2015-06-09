@@ -8,7 +8,9 @@
   "description": "New views for the chrisvogt.me website/blog.",
   "main": "index.html",
   "keywords": [
-    "views", "developer blog", "personal website"
+    "views",
+    "developer blog",
+    "personal website"
   ],
   "license": "MIT",
   "ignore": [
@@ -24,6 +26,7 @@
     "bootstrap": "~3.3.4",
     "font-awesome": "~4.3.0",
     "Hover": "~2.0.2",
-    "octicons": "~2.4.1"
+    "octicons": "~2.4.1",
+    "jPages": "luis-almeida/jPages"
   }
 }
