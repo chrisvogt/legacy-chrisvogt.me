@@ -184,6 +184,9 @@ body {
  font-family: 'Dancing Script', cursive;
  font-size: 3em;
 }
+h1 a {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 #content p {
   font-size: 1.143em;
 }

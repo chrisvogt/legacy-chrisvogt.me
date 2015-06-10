@@ -4,6 +4,7 @@ category: "projects"
 title: "HTML5 and JavaScript Primality Game"
 thumbnail: "https://res.cloudinary.com/chrisvogt/image/upload/v1433759656/chrisvogt-me/thumb/primality.png"
 excerpt: "Brower-based HTML/JavaScript experiment at creating a free, online mathematics game. Tests skills at identifying prime numbers."
+source: "https://github.com/chrisvogt/JS-Primality-Experiment"
 ---
 
 <img src="https://cdn.rawgit.com/chrisvogt/JS-Primality-Experiment/develop/screenshot.gif" width="260" alt="JS Primality Experiment Screenshot" class="img pull-right" /> A browser-based numbers game in HTML5 and JavaScript. Tests your skill at identifying prime numbers in a given range.

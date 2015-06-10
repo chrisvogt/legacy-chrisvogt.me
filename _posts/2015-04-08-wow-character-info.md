@@ -2,8 +2,10 @@
 layout: "default"
 category: "projects"
 title: "WoW Character Info App"
-thumbnail: "https://res.cloudinary.com/chrisvogt/image/upload/v1433759656/chrisvogt-me/thumb/stats.png"
+thumbnail: "https://cdn.rawgit.com/chrisvogt/wowchar-info/master/webroot/touch-icon-iphone.png"
 excerpt: "An open source toy I created in PHP for generating WoW character previews using the Battle.NET api. Use to share WoW characters on social networking sites."
+demo: "http://wowchar.info"
+source: "https://github.com/chrisvogt/wowchar-info"
 ---
 
 <img src="http://i.imgur.com/NAuq5zT.gif" width="320" class="alignright" />To save myself from repeatedly composing my World of Warcraft character descriptions, I have created <a href="http://wowchar.info">wowchar.info</a> to lookup and share character details.
