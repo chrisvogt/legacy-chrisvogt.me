@@ -126,4 +126,5 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-watch

@@ -9,3 +9,5 @@ permalink: /:categories/:title
 analytics: "UA-33558417-1"
 exclude:
   - README.md
+gems:
+  - jekyll-redirect-from
