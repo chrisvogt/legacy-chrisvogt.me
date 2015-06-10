@@ -8,9 +8,6 @@ demo: "http://wowchar.info"
 source: "https://github.com/chrisvogt/wowchar-info"
 ---
 
-<img src="http://i.imgur.com/NAuq5zT.gif" width="320" class="alignright" />To save myself from repeatedly composing my World of Warcraft character descriptions, I have created <a href="http://wowchar.info">wowchar.info</a> to lookup and share character details.
+<img src="http://www.wowchar.info/img/og-banner.jpg" width="340" class="img img-thumbnail pull-right" alt="WOWCHAR.info banner" />To save myself from repeatedly composing my World of Warcraft character descriptions, I have created <a href="http://wowchar.info" title="WOWCHAR.info World of Warcraft Character Sharing Tool">wowchar.info</a> to lookup and share character details.
 
-A small CakePHP app, use the site to search for your character by realm and character name and it'll generate a quick overview and character preview page based on data from the WoW web API. Use the link in the sidebar to share your profile with friends with fancy character previews built into Facebook, Google Plus, Twitter, and others.
-
-<img src="http://www.chrisvogt.me/wp-content/uploads/2015/04/wowchar-preview.png" alt="WoW Character Info Preview" width="498" height="161" class="aligncenter size-full wp-image-1068" />
-This project is just a toy, but if you feel like contributing or running your own instance, have at it!
+A hobby CakePHP app, use the site to search for your character by realm and character name and it'll generate a quick overview and character preview page based on data from the WoW web API. Use the link in the sidebar to share your profile with friends with fancy character previews built into Facebook, Google Plus, Twitter, and others.
