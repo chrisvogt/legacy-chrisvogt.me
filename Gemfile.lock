@@ -127,4 +127,8 @@ DEPENDENCIES
   jekyll
   jekyll-paginate
   jekyll-redirect-from
+  jekyll-sitemap
   jekyll-watch
+
+BUNDLED WITH
+   1.10.3
