@@ -98,10 +98,13 @@ body {
  margin-bottom: 8px;
  color: #efefef;
 }
+span.val img {
+  display: inline-block;
+}
 .btn-stats p {
  padding: 8px;
 }
-.btn-stats span {
+.btn-stats span.lead {
  font-size: 1.571em;
  color: #fff;
  display: block;
