@@ -2,7 +2,7 @@
  * Extract and tally all public commits made to GitHub this month for a user.
  * @author CJ Vogt <mail@chrisvogt.me>
  */
-$(function() {
+$(function () {
     $("div.jHolder").jPages({ /** Initialize jQuery pagination plugin. */
         containerID : "articles",
         animation   : "flipInX",
@@ -38,16 +38,6 @@ $(function() {
      */
     var commitCount = 0;
 
-    $.ajax({ /* Queries GitHub API for public users events. */
-        type: "GET",
-        dataType: "json",
-        url: "https://api.github.com/users/chrisvogt/events/public",
-        success: function(data) {
-            PushEvents = data.filter(filterByType);
-            $('#stats-commits .val').html(commitCount);
-        }
-    });
-
     /**
      * Filter - only return `PushEvents` containing at least one commit.
      * @param {object} PushEvent - A GitHub PushEvent
@@ -65,6 +55,7 @@ $(function() {
          * @property {object} Date
          */
         var firstOfMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+
         if ('type' in obj && typeof(obj.type) === 'string' && obj.type == 'PushEvent' && obj.payload.commits.length >= 1 && 'created_at' in obj && new Date(obj.created_at) > firstOfMonth) {
             commitCount += obj.payload.commits.length;
             return true;
@@ -73,4 +64,27 @@ $(function() {
         }
     }
 
-})
+    $.ajax({ /* Queries GitHub API for public users events. */
+        type: "GET",
+        dataType: "json",
+        url: "https://api.github.com/users/chrisvogt/events/public",
+        success: function (data) {
+            PushEvents = data.filter(filterByType);
+            $('#stats-commits .val').html(commitCount);
+        }
+    });
+});
+
+/**
+ * Collapses the stats pane on small screens.
+ */
+function jqUpdateSize(){
+    var width = $(window).width();
+    if (width < 750) {
+      $('#masthead').removeClass('in');
+    } else {
+      $('#masthead').addClass('in');
+    }
+};
+$(document).ready(jqUpdateSize);    // When the page first loads
+$(window).resize(jqUpdateSize);     // When the browser changes size

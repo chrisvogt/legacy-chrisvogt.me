@@ -1,0 +1,12 @@
+/* TEAM */
+
+Name: CJ Vogt
+Site: http://www.chrisvogt.me
+Twitter: @C1V0
+Location: Phoenix, AZ
+Role: Design, Front-End Development
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Animate.css, Twitter Bootstrap, Font Awesome, Hover.css, Octicons, jQuery jPages
+Software: Jekyll, GitHub Pages, jQuery
