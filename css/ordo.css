@@ -41,12 +41,17 @@ body {
 .img-shadow {
   box-shadow: 4px 4px 10px #888888;
 }
+@media (max-width: 768px) {
+  #content .img-responsive { /* Spacing below featured images */
+    margin-bottom: 14px;
+  }
+}
 
 /**
  * Navigation
  */
 .navbar-static-top {
-  background: transparent; /* tmp */
+  background: transparent;
   border-bottom: 2px solid #fefefe;
   height: 64px;
   margin-bottom: 0;

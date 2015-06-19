@@ -8,6 +8,8 @@ demo: "http://marbleinterface.tumblr.com"
 source: "https://github.com/chrisvogt/marbleinterface-tumblr"
 ---
 
-I have rereleased a Tumblr theme I made in 2012: Marble Interface, an eloquent, dark green marble theme. The theme is pending approval into the Tumblr market, but for the time being you can grab the HTML template from GitHub.
+<div class="col-xs-12 col-md-4 pull-right">
+  <img src="http://i.imgur.com/GgxhP5s.gif" class="img img-responsive" alt="Marble Interface Tumblr Theme">
+</div>
 
-<img src="http://i.imgur.com/GgxhP5s.gif" class="img img-responsive img-thumbnail" width="350" alt="Marble Interface Demo" />
+I have rereleased a Tumblr theme I made in 2012: Marble Interface, an eloquent, dark green marble theme. The theme is pending approval into the Tumblr market, but for the time being you can grab the HTML template from GitHub.

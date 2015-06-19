@@ -8,6 +8,10 @@ demo: "https://chrome.google.com/webstore/detail/wordpressorg-support-enha/mlodk
 source: "https://github.com/chrisvogt/wordpress-support-enhancement-kit"
 ---
 
-<img src="https://cdn.rawgit.com/chrisvogt/wordpress-support-enhancement-kit/master/screenshot.gif" width="400" alt="Wordpress.org Support Extension Kit" class="img pull-right" /> I have released a Chrome extension on the Chrome Web Store called the Wordpress.org Support Forum Extension Kit.
+<div class="col-xs-12 col-md-4 pull-right">
+  <img src="https://cdn.rawgit.com/chrisvogt/wordpress-support-enhancement-kit/master/screenshot.gif" class="img img-thumbnail img-responsive" alt="Wordpress.org Enhancement Kit Chrome Extension">
+</div>
+
+I have released a Chrome extension on the Chrome Web Store called the Wordpress.org Support Forum Extension Kit.
 
 While replying to questions on the Wordpress.org support forum I have grown bored with the current state of the forum UI. This Chrome extension allows me to override the styles, scripts, and hack the Wordpress.org support forum into something I find pleasing.
