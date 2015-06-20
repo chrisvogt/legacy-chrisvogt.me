@@ -120,6 +120,7 @@ span.val img {
  font-size: 1.571em;
  color: #fff;
  display: block;
+ margin-bottom: 0;
 }
 #ctlStats {
   display: inline;
@@ -130,6 +131,12 @@ span.val img {
   .btn-stats span {
     font-size: 1.125em;
     display: inline;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  #masthead small {
+    display: none;
   }
 }
 
