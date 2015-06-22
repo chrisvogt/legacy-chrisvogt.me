@@ -25,6 +25,15 @@ $(function () {
         }
     });
 
+    $.ajax({ /** Queries the chrisvogt/stats API. */
+        type: "GET",
+        dataType: "json",
+        url: "https://stats.chrisvogt.me/reports/dashboard.json",
+        success: function (data) {
+            $('#stats-time .val').html(data.totalHours);
+        }
+    });
+
     /**
      * Contains GitHub User PushEvents
      * @type {object}
