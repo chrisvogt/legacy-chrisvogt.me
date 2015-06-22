@@ -58,13 +58,10 @@ $(function () {
          */
         var today = new Date();
 
-        /**
-         * The first day of the current month.
-         * @property {object} Date
-         */
-        var firstOfMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+        // Roll back the date 24 hours.
+        today.setDate(today.getDate() - 1);
 
-        if ('type' in obj && typeof(obj.type) === 'string' && obj.type == 'PushEvent' && obj.payload.commits.length >= 1 && 'created_at' in obj && new Date(obj.created_at) > firstOfMonth) {
+        if ('type' in obj && typeof(obj.type) === 'string' && obj.type == 'PushEvent' && obj.payload.commits.length >= 1 && 'created_at' in obj && new Date(obj.created_at) >= today) {
             commitCount += obj.payload.commits.length;
             return true;
         } else {
