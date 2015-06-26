@@ -6,6 +6,8 @@ thumbnail: "https://res.cloudinary.com/chrisvogt/image/upload/v1433759656/chrisv
 excerpt: "A Chrome extension available on the Chrome Web Store that overrides the default Wordpress.org support forum styles and scripts."
 demo: "https://chrome.google.com/webstore/detail/wordpressorg-support-enha/mlodkondjlhhbhcokbpgiafemehdcbel?utm_source=plus"
 source: "https://github.com/chrisvogt/wordpress-support-enhancement-kit"
+redirect_from:
+  - /projects/wordpress-support-extension-kit/
 ---
 
 <div class="col-xs-12 col-md-4 pull-right">
