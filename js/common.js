@@ -78,6 +78,12 @@ $(function () {
             $('#stats-commits .val').html(commitCount);
         }
     });
+
+    $('#glider').hover(function() { /* Animates the glider on mouseover. */
+      $(this).attr('src', 'https://res.cloudinary.com/chrisvogt/image/upload/v1435295850/glider-animated_o4cs7t.gif');
+    }, function() {
+      $(this).attr('src', '/img/glider.svg');
+    });
 });
 
 /**
