@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/chrisvogt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chrisvogt.me
+  * I am chrisvogt (https://keybase.io/chrisvogt) on keybase.
+  * I have a public key with fingerprint 48DD CA76 067C 9B5C B126  79AC A63F 9EE3 9564 3483
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "48ddca76067c9b5cb12679aca63f9ee395643483",
+            "host": "keybase.io",
+            "key_id": "A63F9EE395643483",
+            "uid": "72b9428c22cc5031710bdc8f23dcf319",
+            "username": "chrisvogt"
+        },
+        "service": {
+            "hostname": "chrisvogt.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1435315601,
+    "expire_in": 157680000,
+    "prev": null,
+    "seqno": 1,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+owGbwMvMwMS4zH7e46kpJs2Mpw98TWII7dWdWK2UlJ9SqWRVrZSck5maVwJi5SXm
+pipZKWWnViYlFqfqZeYr5OWnpOplFStA1egolaUWFWfm5wFVGeiZ61kq1eqAlIM0
+p2XmpacWFRRlgsxSMrFISUlONDczMDNPtkwyTU4yNDIzt0xMTjQzTrNMTTW2NDUz
+MTaxMAYamZFfXIJiqxLYzPjMFKCoo5mxm6WrK7L6UrCEuVGSpYmRRbKRUXKyqYGx
+obmhQVJKskWakXFKcpqxoSVIYXFqEdRLyRlFmcVl+eklIAcDhcsyk1NBjgbZja5E
+D8jVUSooyi/JT87PAcpklJQUFFuBdJZUFoCUlqcmxUMNiU/KzEsB+hw5aAyBKpNL
+MkGmGpoYmxobmpoZGOoopVYUZBalxmeCVJiam1kYAAHIntQyJau80pwckMMK8/KB
+skCLEtOB9hRnpucllpQWpSrVdjLKsDAwMjGwsTKBYo+Bi1MAFqc3JNj/ae+dqfY4
+cGfryRP37wX37V/Dd+lzkWhfk+23v6oOYnd3rDpmVlPyz7a4+NRX1isbZTpUtdf1
+vpKd9csjp2FuseBVjQtyHO0MTRsE9BmvHc1PjuFrz56+ycFgn86LxaFVNc8Nv5du
+2fb+/kbTXQlPuTqsunNuz093uSoqYrdixfFfU7vZlM546Sh2yDU1X5+idDYn5c1R
+6Rz3c6kuB82e1XbbK1mejY2Rd7rAVspiveJnZGuNvQezwXvVRfLGh6qvcO+f9nvB
+3AezmyKnuvk8XXBIf+ubORbrWnbMV12qtVfxysLlyjtiJx2ONeVZtY/zleG1ULVp
+S5MSpLY8CVzj1njg2Y0pKS+cHh3cocD8FgA=
+=fTnL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chrisvogt
+
+==================================================================
