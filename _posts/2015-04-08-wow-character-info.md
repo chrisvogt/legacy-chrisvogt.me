@@ -2,7 +2,7 @@
 layout: "default"
 category: "projects"
 title: "WoW Character Info App"
-thumbnail: "https://cdn.rawgit.com/chrisvogt/wowchar-info/master/webroot/touch-icon-iphone.png"
+thumbnail: "https://res.cloudinary.com/chrisvogt/image/upload/v1433759656/chrisvogt-me/thumb/wowchar.jpg"
 excerpt: "An open source toy I created in PHP for generating WoW character previews using the Battle.NET api. Use to share WoW characters on social networking sites."
 demo: "http://wowchar.info"
 source: "https://github.com/chrisvogt/wowchar-info"
