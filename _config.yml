@@ -1,8 +1,9 @@
 paginate: 5
 title: "CHRISVOGT.me"
 author: "Chris Vogt"
+twitter: "C1V0"
 description: "Personal blog of Phoenix web developer CJ Vogt. Projects in PHP, CakePHP, Jekyll, Wordpress, and more."
-banner: "https://cdn.rawgit.com/chrisvogt/chrisvogt.github.io/develop/img/og-banner.jpg"
+banner: "https://res.cloudinary.com/chrisvogt/image/upload/v1433903064/og-banner_saphne.jpg"
 markdown: rdiscount
 highlighter: pygments
 permalink: /:categories/:title
