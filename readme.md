@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://github.com/chrisvogt/chrisvogt.me/blob/develop/LICENSE)
 [![Travis](https://img.shields.io/travis/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://travis-ci.org/chrisvogt/chrisvogt.me)
 
-<img src="https://res.cloudinary.com/chrisvogt/image/upload/v1435401303/chrisvogt-me/thumb/projects.png" alt="Project element preview" height="300" width="300" align="right">This repository holds the source code behind [CHRISVOGT.me](http://www.chrisvogt.me).
+This repository holds the source code behind [CHRISVOGT.me](http://www.chrisvogt.me).
 
 ## Screenshot
 
@@ -15,7 +15,6 @@
 The following directories and their contents are Copyright Chris Vogt. Do not reuse the contents of these directories without permission:
 
 * _posts/
-* photos/
 
 All other directories and files are [MIT License](http://opensource.org/licenses/MIT). Should you feel gracious, a link back to https://github.com/chrisvogt/chrisvogt.github.io would be appreciated, but is not required.
 
