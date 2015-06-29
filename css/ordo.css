@@ -186,6 +186,9 @@ span.val img {
  margin-top: 0;
  margin-bottom: 24px;
 }
+.pager li:hover {
+  cursor: pointer;
+}
 
 /**
  * Footer

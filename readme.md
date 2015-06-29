@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://github.com/chrisvogt/chrisvogt.me/blob/develop/LICENSE)
 [![Travis](https://img.shields.io/travis/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://travis-ci.org/chrisvogt/chrisvogt.me)
 
-This repository holds the source code behind [CHRISVOGT.me](http://www.chrisvogt.me).
+<img src="https://res.cloudinary.com/chrisvogt/image/upload/v1435401303/chrisvogt-me/thumb/projects.png" alt="Project element preview" height="300" width="300" align="right">This repository holds the source code behind [CHRISVOGT.me](http://www.chrisvogt.me).
 
 ## Screenshot
 
