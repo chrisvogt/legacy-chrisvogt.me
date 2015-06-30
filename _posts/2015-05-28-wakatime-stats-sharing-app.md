@@ -4,7 +4,7 @@ category: "projects"
 title: "WakaTime Stats-Sharing App"
 thumbnail: "https://res.cloudinary.com/chrisvogt/image/upload/v1433759656/chrisvogt-me/thumb/stats.png"
 excerpt: "Open source CakePHP app that creates a simple report for your open source contributions. Uses WakaTime for time tracking."
-demo: "https://stats.chrisvogt.me"
+demo: "http://stats.chrisvogt.me"
 source: "https://github.com/chrisvogt/stats"
 ---
 
