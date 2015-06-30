@@ -6,6 +6,8 @@ thumbnail: "https://res.cloudinary.com/chrisvogt/image/upload/c_scale,w_76/v1435
 excerpt: "Jekyll-powered projects directory and portfolio, available as an open source project on GitHub."
 demo: "https://projects.chrisvogt.me"
 source: "https://github.com/chrisvogt/projects"
+redirect_from:
+  - /projects/sandbox/
 ---
 
 [![GitHub release](https://img.shields.io/github/release/chrisvogt/projects.svg?style=flat-square)](https://github.com/chrisvogt/projects/releases)
