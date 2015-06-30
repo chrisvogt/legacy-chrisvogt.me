@@ -9,7 +9,7 @@ source: "https://github.com/chrisvogt/marbleinterface-tumblr"
 ---
 
 <div class="col-xs-12 col-md-4 pull-right">
-  <img src="http://i.imgur.com/GgxhP5s.gif" class="img img-responsive" alt="Marble Interface Tumblr Theme">
+  <img src="https://i.imgur.com/GgxhP5s.gif" class="img img-responsive" alt="Marble Interface Tumblr Theme">
 </div>
 
 I have rereleased a Tumblr theme I made in 2012: Marble Interface, an eloquent, dark green marble theme. The theme is pending approval into the Tumblr market, but for the time being you can grab the HTML template from GitHub.
