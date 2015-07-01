@@ -53,6 +53,9 @@ body {
   #content .img-responsive { /* Spacing below featured images */
     margin-bottom: 14px;
   }
+  .footer p {
+    font-size: .825em;
+  }
 }
 
 /**
