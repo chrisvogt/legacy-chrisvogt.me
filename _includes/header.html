@@ -31,8 +31,9 @@
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{{ site.banner }}">
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap & Jasny -->
     <link href="/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/components/font-awesome/css/font-awesome.min.css">
     <!-- Custom styles -->
@@ -60,51 +61,8 @@
   </head>
 
   <body>
+    {% include offcanvas.html %}
         <div id="header">
-          <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container-fluid">
-              <a class="navbar-brand hvr-grow-rotate" href="/">
-                <img class="img img-circle hvr-grow-rotate" src="https://www.gravatar.com/avatar/3e0cd2da42672a768e98a2b0c0617b72?s=48px" width="48" height="48" alt="Avatar">
-                chrisvogt<span>.me</span>
-              </a>
-              <a id="ctlStats" class="btn btn-default btn-xs" data-toggle="collapse" href="#masthead" aria-expanded="true" aria-controls="masthead">
-                <i class="fa fa-area-chart"></i>
-              </a>
-              <div class="social-container">
-                <ul class="social">
-                  <li>
-                    <a class="github" href="https://github.com/chrisvogt" title="Chris Vogt on GitHub">
-                      <i class="fa fa-github-square hvr-shrink"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="twitter" href="https://twitter.com/c1v0" title="@C1V0 on Twitter">
-                      <i class="fa fa-twitter-square hvr-shrink"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="gplus" href="https://plus.google.com/u/0/+chrisvogt94952" title="CJ Vogt on Google+">
-                      <i class="fa fa-google-plus-square hvr-shrink"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="behance" href="https://www.behance.net/chrisvogt" title="Chris Vogt on Behance">
-                      <i class="fa fa-behance-square hvr-shrink"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="instagram" href="https://instagram.com/c1v0" title="C1V0 on Instagram">
-                      <i class="fa fa-instagram hvr-shrink"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="linkedin" href="https://www.linkedin.com/in/cjvogt" title="Chris Vogt on LinkedIn">
-                      <i class="fa fa-linkedin-square hvr-shrink"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+          {% include navigation.html %}
           {% include masthead.html %}
         </div><!-- /#header -->
