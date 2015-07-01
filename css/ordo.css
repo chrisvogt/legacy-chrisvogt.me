@@ -18,12 +18,14 @@ body {
   background: url('../img/v-glow.png') 4% repeat-y #efefef;
   font-family: 'Droid Serif', serif;
   min-height: 100%;
-  padding-bottom: 35px;
 }
 #viewpane {
   background: url('../img/flap-shadow.png') no-repeat top center;
   min-height: 100%;
   padding-left: 0;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 35px;
 }
 @media (max-width: 768px) {
   body {
@@ -200,6 +202,7 @@ span.val img {
    line-height: 1.143em;
    background-position: bottom;
    position: absolute;
+   height: 35px;
    bottom: 0;
    width: 100%;
  }
@@ -311,15 +314,6 @@ h1 a {
   font-family: sans-serif;
 }
 
-.canvas {
-  position: relative;
-  left: 0;
-  z-index: 2;
-  min-height: 100%;
-  padding: 50px 0 0 0;
-  background: #fff;
-}
-
 @media (min-width: 0) {
   .navbar-toggle {
     display: block; /* force showing the toggle */
@@ -327,16 +321,10 @@ h1 a {
 }
 
 @media (min-width: 992px) {
-  body {
-    padding: 0;
-  }
   .navbar {
     right: auto;
     background: none;
     border: none;
-  }
-  .canvas {
-    padding: 0;
   }
 }
 
