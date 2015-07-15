@@ -13,6 +13,11 @@ redirect_from:
 <div class="col-xs-12 col-md-4 pull-right">
   <img src="https://cdn.rawgit.com/chrisvogt/wowchar-info/master/webroot/img/og-banner.jpg" class="img img-thumbnail img-responsive" alt="WOWCHAR.info banner">
 </div>
+
+[![GitHub release](https://img.shields.io/github/release/chrisvogt/wowchar-info.svg?style=flat-square)](https://github.com/chrisvogt/wowchar-info/releases)
+[![GitHub license](https://img.shields.io/github/license/chrisvogt/wowchar-info.svg?style=flat-square)](https://github.com/chrisvogt/wowchar-info/blob/develop/LICENSE)
+[![Travis](https://img.shields.io/travis/chrisvogt/wowchar-info.svg?style=flat-square)](https://travis-ci.org/chrisvogt/wowchar-info)
+
 To save myself from repeatedly composing my World of Warcraft character descriptions, I have created <a href="https://wowchar.info" title="WOWCHAR.info World of Warcraft Character Sharing Tool">wowchar.info</a> to lookup and share character details.
 
 A hobby CakePHP app, use the site to search for your character by realm and character name and it'll generate a quick overview and character preview page based on data from the WoW web API. Use the link in the sidebar to share your profile with friends with fancy character previews built into Facebook, Google Plus, Twitter, and others.

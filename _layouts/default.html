@@ -3,14 +3,16 @@
       <div id="content" class="col-xs-12 col-md-8">
         <h1>
           {{ page.title }}
+        </h1>
+        <p>
           {% if page.demo %}
           <a href="{{ page.demo }}" class="btn btn-default btn-xs"><span class="octicon octicon-globe"></span> Demo</a>
           {% endif %}
           {% if page.source %}
           <a href="{{ page.source }}" class="btn btn-default btn-xs"><span class="octicon octicon-code"></span> Source</a>
           {% endif %}
-        </h1>
-        {{ content }}
+          {{ content }}
+        </p>
       </div><!-- /#content -->
       {% include sidebar.html %}
     </div> <!-- /.container-fluid -->
