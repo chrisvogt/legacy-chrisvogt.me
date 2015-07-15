@@ -2,6 +2,7 @@ paginate: 5
 title: "CHRISVOGT.me"
 author: "Chris Vogt"
 twitter: "C1V0"
+url: "https://www.chrisvogt.me"
 description: "Personal blog of Phoenix web developer CJ Vogt. Projects in PHP, CakePHP, Jekyll, Wordpress, and more."
 banner: "https://res.cloudinary.com/chrisvogt/image/upload/v1433903064/og-banner_saphne.jpg"
 markdown: rdiscount
