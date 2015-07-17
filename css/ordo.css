@@ -16,7 +16,6 @@ html {
 }
 body {
   background: url('../img/v-glow.png') 4% repeat-y #efefef;
-  font-family: 'Droid Serif', serif;
   min-height: 100%;
 }
 #viewpane {
@@ -31,6 +30,24 @@ body {
   body {
     padding-bottom: 71px;
   }
+}
+
+/**
+ * Typography
+ */
+body {
+  font-family: 'Droid Serif', serif;
+}
+a {
+  color: #cecece;
+  text-decoration: none;
+}
+a:hover {
+  color: #fefefe;
+  text-decoration: none;
+}
+.social-links a:hover {
+  color: #5E4F84;
 }
 
 /**
@@ -193,6 +210,21 @@ span.val img {
 }
 .pager li:hover {
   cursor: pointer;
+}
+
+/**
+ * Off Canvas
+ */
+.social-links {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 24px;
+  width: 100%;
+  text-align: center;
+}
+.social-links li {
+  display: inline-block;
 }
 
 /**
