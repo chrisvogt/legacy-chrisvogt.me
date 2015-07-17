@@ -53,6 +53,7 @@ a:hover {
 }
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 10px;
 }
 #content p {
   font-size: 1.143em;
