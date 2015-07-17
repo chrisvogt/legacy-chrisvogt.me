@@ -39,25 +39,33 @@ body {
   font-family: 'Droid Serif', serif;
 }
 a {
-  color: #cecece;
   text-decoration: none;
 }
 a:hover {
-  color: #fefefe;
   text-decoration: none;
 }
 .social-links a:hover {
   color: #5E4F84;
 }
+#content h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.4em;
+}
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#content p {
+  font-size: 1.143em;
+}
 
 /**
  * Layout
  */
-#content {
-
-}
 #header, footer.footer {
   background: url('../img/bg-delaunay.png') top center;
+}
+footer.footer {
+  z-index: 46;
 }
 
 /**
@@ -252,20 +260,6 @@ span.val img {
 .footer a:hover {
   color: #cecece;
   text-decoration: none;
-}
-
-/**
- * Content
- */
-#content h1 {
- font-family: 'Dancing Script', cursive;
- font-size: 3em;
-}
-h1 a {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-#content p {
-  font-size: 1.143em;
 }
 
 /**
