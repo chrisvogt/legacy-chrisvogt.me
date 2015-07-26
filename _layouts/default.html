@@ -6,7 +6,7 @@
         </h1>
         <p>
           {% if page.date %}
-            <time date="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
           {% endif %}
 
           {{ content }}
