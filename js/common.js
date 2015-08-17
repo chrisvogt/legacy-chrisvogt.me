@@ -5,10 +5,10 @@
 $(function () {
     $("div.jHolder").jPages({ /** Initialize jQuery pagination plugin. */
         containerID : "articles",
-        animation   : "flipInX",
+        animation   : "rotateInUpLeft",
         pause       : 8500,
         clickStop   : true,
-        perPage     : 4,
+        perPage     : 3,
         previous    : ".previous a",
         next        : ".next a",
         links       : "blank",
