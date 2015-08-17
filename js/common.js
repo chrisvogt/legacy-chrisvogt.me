@@ -8,7 +8,7 @@ $(function () {
         animation   : "rotateInUpLeft",
         pause       : 8500,
         clickStop   : true,
-        perPage     : 3,
+        perPage     : getArticlesPerPage(),
         previous    : ".previous a",
         next        : ".next a",
         links       : "blank",
@@ -45,6 +45,18 @@ $(function () {
      * @type {number}
      */
     var commitCount = 0;
+
+    /**
+     * Determines the number of articles shown in the sidebar.
+     * @returns {number}
+     */
+    function getArticlesPerPage() {
+      if ($(window).height() < 900) {
+        return 2;
+      } else {
+        return 3;
+      }
+    }
 
     /**
      * Filter - only return `PushEvents` containing at least one commit.
