@@ -1,22 +1,20 @@
     {% include header.html %}
     <div id="viewpane" class="container-fluid">
       <div id="content" class="col-xs-12 col-md-6 col-md-offset-2">
+        {% if page.feature and page.feature2 and page.feature3 %}
+        {% include element/featured.html %}
+        {% endif %}
         <h1>
           {{ page.title }}
+          {% if page.feature == null %}
+          {% include element/links.html %}
+          {% endif %}
         </h1>
         <p>
           {% if page.date %}
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
           {% endif %}
-
           {{ content }}
-
-          {% if page.demo %}
-          <a href="{{ page.demo }}" class="btn btn-default btn-xs"><span class="octicon octicon-globe"></span> Demo</a>
-          {% endif %}
-          {% if page.source %}
-          <a href="{{ page.source }}" class="btn btn-default btn-xs"><span class="octicon octicon-code"></span> Source</a>
-          {% endif %}
         </p>
       </div><!-- /#content -->
       {% include sidebar.html %}
