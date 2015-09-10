@@ -6,7 +6,7 @@ cache: bundler
 
 branches:
   only:
-  - develop     # test the master branch
+  - master     # test the master branch
 
 env:
   global:

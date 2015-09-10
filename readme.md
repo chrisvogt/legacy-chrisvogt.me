@@ -1,10 +1,11 @@
 # Jekyll-powered developer's blog
 
-[![GitHub release](https://img.shields.io/github/release/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://github.com/chrisvogt/chrisvogt.me/releases)
-[![GitHub license](https://img.shields.io/github/license/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://github.com/chrisvogt/chrisvogt.me/blob/develop/LICENSE)
-[![Travis](https://img.shields.io/travis/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://travis-ci.org/chrisvogt/chrisvogt.me)
+[![Build Status](http://img.shields.io/travis/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://travis-ci.org/chrisvogt/chrisvogt.me)
+[![Dependency Status](http://img.shields.io/gemnasium/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://gemnasium.com/chrisvogt/chrisvogt.me)
+[![Code Climate](http://img.shields.io/codeclimate/github/chrisvogt/chrisvogt.me.svg?style=flat-square)](https://codeclimate.com/github/chrisvogt/chrisvogt.me)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://chrisvogt.mit-license.org)
 
-This repository holds the source code behind [CHRISVOGT.me](http://www.chrisvogt.me).
+Yet another Jekyll-powered developer website and blog. This is the source code behind [CHRISVOGT.me](http://www.chrisvogt.me).
 
 ## Screenshot
 
@@ -12,7 +13,7 @@ This repository holds the source code behind [CHRISVOGT.me](http://www.chrisvogt
 
 ## Developer Notes
 
-Requires `Ruby`, `Gem`, `Jekyll`, `Node.js`, `npm`, and `Bower` to build.
+Requires `Jekyll` and `Bower` to build.
 
 Git strategy: `enhances/stuff` » `develop` » `gh-pages`.
 
