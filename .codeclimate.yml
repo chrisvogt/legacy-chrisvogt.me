@@ -3,5 +3,5 @@ languages:
   JavaScript: true
   PHP: false
   Python: false
- exclude_paths:
+exclude_paths:
  - "components/*"
