@@ -2,25 +2,46 @@
  * Extract and tally all public commits made to GitHub this month for a user.
  * @author CJ Vogt <mail@chrisvogt.me>
  */
-$(function () {
+$(function() {
+    /**
+     * Loads the necessary Google Fonts.
+     */
+    WebFontConfig = {
+        google: {
+            families: ['Merriweather:300,300italic:latin', 'Open+Sans:800,700:latin']
+        }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+
+    /**
+     * Init jPages plugin.
+     */
     $("div.jHolder").jPages({ /** Initialize jQuery pagination plugin. */
-        containerID : "articles",
-        animation   : "rotateInUpLeft",
-        pause       : 8500,
-        clickStop   : true,
-        perPage     : getArticlesPerPage(),
-        previous    : ".previous a",
-        next        : ".next a",
-        links       : "blank",
-        first       : false,
-        last        : false
+        containerID: "articles",
+        animation: "rotateInUpLeft",
+        pause: 8500,
+        clickStop: true,
+        perPage: getArticlesPerPage(),
+        previous: ".previous a",
+        next: ".next a",
+        links: "blank",
+        first: false,
+        last: false
     });
 
     $.ajax({ /** Queries the chrisvogt/projects API. */
         type: "GET",
         dataType: "json",
         url: "https://projects.chrisvogt.me/api/1.0/all.json",
-        success: function (data) {
+        success: function(data) {
             $('#stats-projects .val').html(data.projects.length);
         }
     });
@@ -29,7 +50,7 @@ $(function () {
         type: "GET",
         dataType: "json",
         url: "https://stats.chrisvogt.me/reports/dashboard.json",
-        success: function (data) {
+        success: function(data) {
             $('#stats-time .val').html(data.totalHours);
         }
     });
@@ -51,11 +72,11 @@ $(function () {
      * @returns {number}
      */
     function getArticlesPerPage() {
-      if ($(window).height() < 900) {
-        return 2;
-      } else {
-        return 3;
-      }
+        if ($(window).height() < 900) {
+            return 2;
+        } else {
+            return 3;
+        }
     }
 
     /**
@@ -85,29 +106,29 @@ $(function () {
         type: "GET",
         dataType: "json",
         url: "https://api.github.com/users/chrisvogt/events/public",
-        success: function (data) {
+        success: function(data) {
             PushEvents = data.filter(filterByType);
             $('#stats-commits .val').html(commitCount);
         }
     });
 
     $('#glider').hover(function() { /* Animates the glider on mouseover. */
-      $(this).attr('src', 'https://res.cloudinary.com/chrisvogt/image/upload/v1435295850/glider-animated_o4cs7t.gif');
+        $(this).attr('src', 'https://res.cloudinary.com/chrisvogt/image/upload/v1435295850/glider-animated_o4cs7t.gif');
     }, function() {
-      $(this).attr('src', '/img/glider.svg');
+        $(this).attr('src', '/img/glider.svg');
     });
 });
 
 /**
  * Collapses the stats pane on small screens.
  */
-function jqUpdateSize(){
+function jqUpdateSize() {
     var width = $(window).width();
     if (width < 750) {
-      $('#masthead').removeClass('in');
+        $('#masthead').removeClass('in');
     } else {
-      $('#masthead').addClass('in');
+        $('#masthead').addClass('in');
     }
 };
-$(document).ready(jqUpdateSize);    // When the page first loads
-$(window).resize(jqUpdateSize);     // When the browser changes size
+$(document).ready(jqUpdateSize); // When the page first loads
+$(window).resize(jqUpdateSize); // When the browser changes size
