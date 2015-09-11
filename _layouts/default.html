@@ -6,19 +6,19 @@
         {% endif %}
         <h1>
           {{ page.title }}
-          {% if page.feature == null %}
-          {% include element/links.html %}
-          {% endif %}
         </h1>
-        <p>
+        <p class="small">
           {% if page.date %}
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+            Posted <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
           {% endif %}
           {{ content }}
         </p>
+        {% if page.feature == null %}
+        {% include element/links.html %}
+        {% endif %}
       </div><!-- /#content -->
       {% include sidebar.html %}
-    </div> <!-- /.container-fluid -->
+    </div> <!-- /#viewpane -->
     {% include footer.html %}
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

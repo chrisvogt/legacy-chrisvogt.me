@@ -12,8 +12,4 @@ source: "https://github.com/chrisvogt/stats"
   <img src="https://cdn.rawgit.com/chrisvogt/stats/develop/webroot/img/screenshot.png" class="img img-thumbnail img-responsive" alt="Developer stats-sharing app">
 </div>
 
-[![GitHub release](https://img.shields.io/github/release/chrisvogt/stats.svg?style=flat-square)](https://github.com/chrisvogt/stats/releases)
-[![GitHub license](https://img.shields.io/github/license/chrisvogt/stats.svg?style=flat-square)](https://github.com/chrisvogt/stats/blob/develop/LICENSE)
-[![Travis](https://img.shields.io/travis/chrisvogt/stats.svg?style=flat-square)](https://travis-ci.org/chrisvogt/stats)
-
 A new section has been added to this site. For the last week I have been using <a href="https://www.wakatime.com">WakaTime</a> to track my work on open source projects. This <a href="https://en.wikipedia.org/wiki/MIT_License">open source</a> <a href="https://cakephp.org">CakePHP</a> project uses the WakaTime web API to make public my open source contribution report.

@@ -10,10 +10,6 @@ redirect_from:
   - /projects/sandbox/
 ---
 
-[![GitHub release](https://img.shields.io/github/release/chrisvogt/projects.svg?style=flat-square)](https://github.com/chrisvogt/projects/releases)
-[![GitHub license](https://img.shields.io/github/license/chrisvogt/projects.svg?style=flat-square)](https://github.com/chrisvogt/projects/blob/develop/LICENSE)
-[![Travis](https://img.shields.io/travis/chrisvogt/projects.svg?style=flat-square)](https://travis-ci.org/chrisvogt/projects)
-
 <div class="col-xs-12 col-md-4 pull-right">
   <img src="https://cdn.rawgit.com/chrisvogt/projects/develop/screenshot.jpg" class="img img-thumbnail img-responsive" alt="My directory of open source projects">
 </div>

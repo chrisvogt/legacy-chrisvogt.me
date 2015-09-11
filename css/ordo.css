@@ -44,8 +44,13 @@ body {
 /**
  * Typography
  */
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
 body {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Merriweather', serif;
 }
 a {
   text-decoration: none;
@@ -57,16 +62,19 @@ a:hover {
   color: #5E4F84;
 }
 #content h1 {
-  font-family: 'Roboto Condensed', sans-serif;
   font-size: 2.4em;
+  margin: .75em 0 8px 0;
 }
 h2 {
-  font-family: 'Roboto Condensed', sans-serif;
   margin-top: 10px;
 }
 #content p {
-  font-size: 1.143em;
+  font-size: 1.286em;
   line-height: 1.5em;
+}
+#content p.small {
+  font-size:1.143em;
+  color: rgb(158, 171, 179);
 }
 
 /**
@@ -113,6 +121,9 @@ footer.footer {
 }
 .row-gallery .links {
   padding: 1em;
+}
+.top-buffer {
+  margin: 24px 0 0 0;
 }
 @media (max-width: 768px) {
   #content .img-responsive { /* Spacing below featured images */
