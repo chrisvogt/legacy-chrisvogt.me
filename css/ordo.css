@@ -86,6 +86,10 @@ h2 {
 footer.footer {
   z-index: 46;
 }
+.g-person.pull-right {
+  float: right!important;
+  border: 1px solid red;
+}
 
 /**
  * Accents
@@ -122,8 +126,17 @@ footer.footer {
 .row-gallery .links {
   padding: 1em;
 }
-.top-buffer {
-  margin: 24px 0 0 0;
+.buffer-top {
+  margin-top: 18px;
+}
+.buffer-right {
+  margin-right: 18px;
+}
+.buffer-bottom {
+  margin-bottom: 18px;
+}
+.buffer-left {
+  margin-left: 18px;
 }
 @media (max-width: 768px) {
   #content .img-responsive { /* Spacing below featured images */
