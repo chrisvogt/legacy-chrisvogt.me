@@ -148,6 +148,28 @@ footer.footer {
 }
 
 /**
+ * Ads
+ */
+.banner-kildekoden {
+  background: url('http://res.cloudinary.com/chrisvogt/image/upload/v1442035642/projects/kildekoden/banner-telescope.jpg');
+  background-size: cover;
+  min-height: 124px;
+  border-radius:8px;
+  margin: 8px 0;
+}
+.banner .headline {
+  color: #efefef;
+  font-size: 1.124em;
+  line-height: 122px;
+  padding-left: 24px;
+}
+.banner .logo {
+  float:right;
+  margin-right: 24px;
+  margin-top: 44px;
+}
+
+/**
  * Navigation
  */
 #header .navbar-static-top {

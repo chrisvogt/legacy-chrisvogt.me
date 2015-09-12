@@ -16,6 +16,9 @@
         {% if page.feature == null %}
         {% include element/links.html %}
         {% endif %}
+        {% if page.title == "Who I Am" %}
+        {% include banner/kildekode.html %}
+        {% endif %}
       </div><!-- /#content -->
       {% include sidebar.html %}
     </div> <!-- /#viewpane -->
