@@ -8,7 +8,7 @@ $(function() {
      */
     WebFontConfig = {
         google: {
-            families: ['Merriweather:300,300italic:latin', 'Open+Sans:800,700:latin']
+            families: ['Merriweather:300,300italic:latin', 'Open+Sans:300,700:latin']
         }
     };
     (function() {
