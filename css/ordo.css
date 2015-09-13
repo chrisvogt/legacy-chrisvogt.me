@@ -151,7 +151,7 @@ footer.footer {
  * Ads
  */
 .banner-kildekoden {
-  background: url('http://res.cloudinary.com/chrisvogt/image/upload/v1442035642/projects/kildekoden/banner-telescope.jpg');
+  background: url('https://res.cloudinary.com/chrisvogt/image/upload/v1442035642/projects/kildekoden/banner-telescope.jpg');
   background-size: cover;
   min-height: 124px;
   border-radius:8px;
@@ -214,7 +214,7 @@ footer.footer {
  */
 #masthead {
  color: #efefef;
- font-family: 'Roboto Condensed', sans-serif;
+ font-family: 'Open Sans', sans-serif;
  padding-top: 14px;
  padding-bottom: 8px;
  border-bottom: 1px solid #cecece;
@@ -237,12 +237,15 @@ span.val img {
 }
 .btn-stats p {
  padding: 8px;
+ font-family: 'Merriweather', serif;
 }
 .btn-stats span.lead {
  font-size: 1.571em;
  color: #fff;
  display: block;
  margin-bottom: 0;
+ font-weight: 300;
+ font-family: 'Open Sans', sans-serif;
 }
 #ctlStats {
   display: inline;
