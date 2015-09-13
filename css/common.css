@@ -63,6 +63,9 @@ a:hover {
 .social-links a:hover {
   color: #5E4F84;
 }
+.navmenu-nav .fa-external-link {
+  font-size: .74em;
+}
 #content h1 {
   font-size: 2.4em;
   margin: .75em 0 8px 0;
